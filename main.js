@@ -182,9 +182,9 @@
 // TASK 10
 
 // function calculateBankDeposit() {
-//     const initialAmount = parseFloat(prompt("Enter initial amount:"));
-//     const durationYears = parseFloat(prompt("Enter duration in years:"));
-//     const interestRate = parseFloat(prompt("Enter % per year:")) / 100;
+//     const initialAmount = +prompt("Enter initial amount:");
+//     const durationYears = +prompt("Enter duration in years:");
+//     const interestRate = +prompt("Enter % per year:") / 100;
   
 //     let totalAmount = initialAmount;
 //     for (let i = 0; i < durationYears; i++) {
