@@ -10,18 +10,20 @@
 
 // task 1 
 
-// function registration() {
 //   const lastname = prompt("Please write your last name:");
 //   const firstname = prompt("Please write your first name:");
 //   const email = prompt("Please write your email address:");
+
+// function registration() {
 //   return `${email} - ${lastname} ${firstname}`;
 // } 
 // console.log(registration());
 
 // task 2
 
-// function calculation() {
 //     const distance = +prompt("Please write distance in km:");
+
+// function calculation() {
 //     const fixedprice = 5
 //     return (distance * 0.25) + fixedprice;
 //   }
@@ -60,11 +62,12 @@
 
 // task 5 
 
+// let temp1 = +prompt("Enter temperature");
+// let temp2 = +prompt("Enter temperature");
+// let temp3 = +prompt("Enter temperature");
+
 // function temperatureOrder() {
-//     let temp1 = +prompt("Enter temperature");
-//     let temp2 = +prompt("Enter temperature");
-//     let temp3 = +prompt("Enter temperature");
-  
+
 //     let highest, middle, lowest;
 
 //     if (temp1 >= temp2 && temp1 >= temp3) {
@@ -140,8 +143,10 @@
 
 // TASK 11
 
+// const orderNum = +(prompt("Enter the order number:"));
+
 // function calculateLoyalty() {
-//     const orderNum = +(prompt("Enter the order number:"));
+
 //     if (orderNum < 1) {
 //         return alert("You ain't even loyal. Go away!");
 //     }
@@ -164,9 +169,10 @@
 
 // TASK 9 
 
+// const number = +(prompt("Enter a number: "));
+
 // function checkingNumbers() {
-//     const number = +(prompt("Enter a number: "));
-    
+
 //     if (isNaN(number) || number < 1) {
 //         return console.log("Error");
 //     }
@@ -181,16 +187,15 @@
 
 // TASK 10
 
+// const initialAmount = +prompt("Enter initial amount:");
+// const durationYears = +prompt("Enter duration in years:");
+// const interestRate = +prompt("Enter % per year:") / 100;
+
 // function calculateBankDeposit() {
-//     const initialAmount = +prompt("Enter initial amount:");
-//     const durationYears = +prompt("Enter duration in years:");
-//     const interestRate = +prompt("Enter % per year:") / 100;
-  
 //     let totalAmount = initialAmount;
 //     for (let i = 0; i < durationYears; i++) {
 //       totalAmount += totalAmount * interestRate;
 //     }
-  
 //     return alert(totalAmount - initialAmount);
 //   }
 //   calculateBankDeposit();
